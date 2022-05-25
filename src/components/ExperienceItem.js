@@ -23,6 +23,7 @@ function ExperienceItem(props) {
               <img
                 src={plusIcon}
                 className={`plus ${expanded ? "rotate" : ""}`}
+                alt="Expand"
               />
             )}
           </button>

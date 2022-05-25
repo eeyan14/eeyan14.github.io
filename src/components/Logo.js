@@ -7,7 +7,7 @@ function Logo() {
 
   useEffect(() => {
     setShow(true)
-  });
+  }, []);
 
   return (
     <nav>

@@ -7,7 +7,7 @@ function Footer() {
     <div id="footer">
       <Link to="/">home</Link>
       <Link to="/about">about</Link>
-      <Link to="/portfolio">portfolio</Link>
+      {/*<Link to="/portfolio">portfolio</Link>*/}
       <Link to="/experience">experience</Link>
     </div>
   );

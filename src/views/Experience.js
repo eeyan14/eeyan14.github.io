@@ -13,10 +13,13 @@ function Experience() {
       title: "Software Developer, Workit Health",
       subtitle: "Jan 2019 — present",
       description: [
-        "Worked across development, design, clinical, and operations teams to create a fully telehealth experience for addiction recovery",
-        "Added features to the Electronic Medical Record for staff, including calendar scheduling and improved video/chat experiences",
-        "Implemented and improved on member-facing features such as video calling, chat messaging, and account management",
-        "Developed for the web in React and Ruby on Rails",
+        "Developed tools and software to transition Workit Health from hybrid to full-remote care and scale to over 7000 patients",
+        "Scoped and developed new features for admin and patient web applications in React + Ruby on Rails; went from minimal web development knowledge to being the primary engineer/architect for multiple features",
+        "Collaborated throughout the entire product lifecycle with stakeholders, design and product to create intuitive and scalable solutions",
+        "Worked closely with the IT team to improve member experience by triaging tickets and bugs",
+        "Automated staging deploy process to allow team to test and iterate more quickly without a configured local environment",
+        "Introduced test suite + CI for Rails tests with Github Actions",
+        "Migrated legacy code from Rails framework into React"
       ]
     },
     {

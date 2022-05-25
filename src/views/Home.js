@@ -20,9 +20,9 @@ function Home() {
           <Link to="/about">about</Link>
         </div>
 
-        <div className="home-link">
+        {/*<div className="home-link">
           <Link to="/portfolio">portfolio</Link>
-        </div>
+        </div>*/}
 
         <div className="home-link">
           <Link to="/experience">experience</Link>

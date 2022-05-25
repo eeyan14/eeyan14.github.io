@@ -3,7 +3,7 @@ import '../styles/portfolio.css';
 
 function PortfolioBox(props) {
   return (
-    <a className="portfolio-box">
+    <a href={props.url} className="portfolio-box">
       {props.children}
     </a>
   );
