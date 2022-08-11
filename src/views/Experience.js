@@ -10,8 +10,16 @@ function Experience() {
   const items = [
     {
       category: "job",
-      title: "Software Developer, Workit Health",
-      subtitle: "Jan 2019 — present",
+      title: "Software Engineer, Duo Security",
+      subtitle: "Aug 2022 — present",
+      description: [
+        "Coming soon!"
+      ]
+    },
+    {
+      category: "job",
+      title: "Software Engineer, Workit Health",
+      subtitle: "Jan 2019 — Jul 2022",
       description: [
         "Developed tools and software to transition Workit Health from hybrid to full-remote care and scale to over 7000 patients",
         "Scoped and developed new features for admin and patient web applications in React + Ruby on Rails; went from minimal web development knowledge to being the primary engineer/architect for multiple features",

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/layout.css';
+import '../styles/components/logo.css';
 
 function Logo() {
   const [show, setShow] = useState(false)

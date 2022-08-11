@@ -15,22 +15,12 @@ function About() {
 
       <div className="flex-content">
         <div className="about-text">
-          <p>I believe technology is a unique conduit for meeting people's needs, and I love exploring the space where people and technology intersect. I'm a software developer at Workit Health, where I have the uniquely wonderful privilege of serving the recovery community by writing code.</p>
-          <p>I have my B.S. and M.S. in computer engineering from the University of Michigan.</p>
+          <p>I believe technology is a unique conduit for meeting people's needs, and I love exploring the space where people and technology intersect. I have my B.S. and M.S. in computer engineering from the University of Michigan, and I'm currently a software developer at Duo Security.</p>
           {/*<a>view resume</a>*/}
         </div>
 
         <Footer />
       </div>
-
-      <div className="bg blue-triangle" />
-      <div className="bg blue-rect" />
-      <div className="bg cream-triangle" />
-      <div className="bg cream-rect" />
-      <div className="bg teal-triangle" />
-      <div className="bg teal-rect" />
-
-
     </div>
   );
 }

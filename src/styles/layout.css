@@ -10,7 +10,9 @@ body {
   background-color: var(--background);
   margin: 0;
   min-width: 100vw;
+  max-width: 100vw;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -56,22 +58,6 @@ nav {
   margin: 1rem 0 3rem;
 }
 
-svg.logo-home {
-  width: 4rem;
-  height: auto;
-
-}
-
-svg.logo-home .logo-path {
-  stroke-dasharray: 100%;
-  stroke-dashoffset: 100%;
-  transition: stroke-dashoffset 3s ease-in-out;
-}
-
-svg.logo-home .logo-path.show {
-  stroke-dashoffset: 0;
-}
-
 #about, #portfolio, #experience {
   position: relative;
   padding: 0 5rem;
@@ -83,7 +69,7 @@ svg.logo-home .logo-path.show {
 #footer {
   display: flex;
   justify-content: flex-end;
-  padding: 3rem 0;
+  padding: 32px 0;
   width: 100%;
   box-sizing: border-box;
 }
@@ -98,23 +84,51 @@ svg.logo-home .logo-path.show {
   border-bottom: 1px solid black;
 }
 
+#footer .bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 0;
+  box-sizing: border-box;
+}
+
+#footer .bg.teal-triangle {
+  border-bottom: 25vh solid var(--teal);
+  border-left: calc(100vw + 5px) solid transparent;
+  bottom: calc(10vh - 1px); /* in some browsers there may be a 1px space between triangle and rectangle */
+  left: -5px;
+}
+
+#footer .bg.teal-rect {
+  background: var(--teal);
+  height: 10vh;
+  width: 100vw;
+  border: 1px solid var(--teal);
+}
+
 @media only screen and (max-width: 768px) {
   h1 {
-    margin: 0 auto 2rem;
+    margin: 0 auto 32px;
   }
 
   #about, #portfolio, #experience {
-    padding: 0 2.5rem;
+    padding: 0 calc(16px * 2.5);
   }
 
   #footer {
     display: flex;
-    justify-content: space-between;
-    padding: 2rem 0;
+    justify-content: center;
+    padding: 32px 0;
   }
 
   #footer a {
-    margin: 0;
     font-size: 0.85rem;
+    margin: 0 32px;
+  }
+
+  #footer .bg.teal-triangle {
+    border-bottom: 8vh solid var(--teal);
   }
 }

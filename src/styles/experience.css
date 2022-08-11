@@ -53,7 +53,13 @@
   z-index: -1;
 }
 
-.exp-item.last .timeline .line { display: none; }
+.exp-item.last .timeline .line {
+  display: none;
+}
+
+.exp-item.last {
+  margin-bottom: calc(16px * 3);
+}
 
 .exp-item .content {
   display: flex;

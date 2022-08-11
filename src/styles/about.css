@@ -4,7 +4,7 @@
   flex-direction: column;
 }
 
-#about .h1-container .underline { background-color: var(--teal); }
+#about .h1-container .underline { background-color: var(--cream); }
 
 .flex-content {
   display: flex;
@@ -22,60 +22,7 @@
   font-size: 1.1rem;
 }
 
-.bg {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-  width: 100vw;
-  height: 0;
-  box-sizing: border-box;
-}
-
-.blue-triangle {
-  border-bottom: 5vh solid var(--blue);
-  border-left: 100vw solid transparent;
-  bottom: 79vh;
-}
-
-.blue-rect {
-  border-bottom: 80vh solid var(--blue);
-}
-
-.cream-triangle {
-  border-bottom: 46vh solid var(--cream);
-  border-right: 100vw solid transparent;
-  bottom: 59vh;
-  width: 105vw;
-}
-
-.cream-rect {
-  border-bottom: 60vh solid var(--cream);
-}
-
-.teal-triangle {
-  border-bottom: 36vh solid var(--teal);
-  border-left: 100vw solid transparent;
-  bottom: 10vh;
-}
-
-.teal-rect {
-  background: var(--teal);
-  border-bottom: 10vh solid var(--teal);
-}
-
 @media only screen and (max-width: 768px) {
   .about-text { width: 100%; }
   .about-text p { font-size: 1rem; }
-
-  .cream-triangle {
-    border-bottom: 37vh solid var(--cream);
-    border-right: 100vw solid transparent;
-    bottom: 67vh;
-    width: 105vw;
-  }
-
-  .cream-rect {
-    border-bottom: 68vh solid var(--cream);
-  }
 }

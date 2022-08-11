@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import '../styles/experience.css';
-import plusIcon from '../assets/plus_icon.png';
+import ExpandIcon from './ExpandIcon';
 
 function ExperienceItem(props) {
   const [hover, setHover] = useState(false)
   const [expanded, setExpanded] = useState(false)
-  const item = props.item
-  const isLast = props.isLast
+  const {
+    item,
+    isLast
+  } = props
   const canExpand = ["job", "project"].includes(item.category)
 
   return (
@@ -19,13 +21,7 @@ function ExperienceItem(props) {
             onMouseLeave={() => setHover(false)}
             onClick={() => setExpanded(!expanded)}
           >
-            {hover && (
-              <img
-                src={plusIcon}
-                className={`plus ${expanded ? "rotate" : ""}`}
-                alt="Expand"
-              />
-            )}
+            <ExpandIcon expanded={expanded} lineLength="50%" />
           </button>
         ) : (
           <div className={`circle ${item.category}`} />
@@ -42,9 +38,15 @@ function ExperienceItem(props) {
 
         {expanded && (
           <ul className="details">
-            {item.description.map((point, i) => {
+            {item.description?.map((point, i) => {
               return (
                 <li key={i}>{point}</li>
+              )
+            })}
+
+            {item.images?.map((img, i) => {
+              return (
+                <img key={i} src={img} />
               )
             })}
           </ul>
