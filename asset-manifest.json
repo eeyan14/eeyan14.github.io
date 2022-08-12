@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad8b51a4.chunk.css",
-    "main.js": "/static/js/main.b498a2e0.chunk.js",
-    "main.js.map": "/static/js/main.b498a2e0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.602c0cc4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.602c0cc4.js.map",
-    "static/js/2.10b9d751.chunk.js": "/static/js/2.10b9d751.chunk.js",
-    "static/js/2.10b9d751.chunk.js.map": "/static/js/2.10b9d751.chunk.js.map",
+    "main.css": "/static/css/main.6371b32a.css",
+    "main.js": "/static/js/main.d55c4566.js",
+    "static/media/metronome-pcb.jpg": "/static/media/metronome-pcb.77994c7e55ae318c894d.jpg",
+    "static/media/profile_img.jpg": "/static/media/profile_img.10c7fb59b183e3844cc7.jpg",
+    "static/media/metronome-labeled.png": "/static/media/metronome-labeled.0d1ee946f11af774ca8b.png",
+    "static/media/temp.png": "/static/media/temp.cce7258aeef1d9585aee.png",
+    "static/media/metronome-diagram.png": "/static/media/metronome-diagram.7cf2ba069689e4d26880.png",
+    "static/media/metronome-ui-2.gif": "/static/media/metronome-ui-2.1bf23561bff23ee031f1.gif",
+    "static/media/metronome-ui-1.gif": "/static/media/metronome-ui-1.9785a95bd2751b2b460d.gif",
     "index.html": "/index.html",
-    "static/css/main.ad8b51a4.chunk.css.map": "/static/css/main.ad8b51a4.chunk.css.map",
-    "static/js/2.10b9d751.chunk.js.LICENSE.txt": "/static/js/2.10b9d751.chunk.js.LICENSE.txt",
-    "static/media/profile_img.10c7fb59.jpg": "/static/media/profile_img.10c7fb59.jpg",
-    "static/media/temp.cce7258a.png": "/static/media/temp.cce7258a.png"
+    "main.6371b32a.css.map": "/static/css/main.6371b32a.css.map",
+    "main.d55c4566.js.map": "/static/js/main.d55c4566.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.602c0cc4.js",
-    "static/js/2.10b9d751.chunk.js",
-    "static/css/main.ad8b51a4.chunk.css",
-    "static/js/main.b498a2e0.chunk.js"
+    "static/css/main.6371b32a.css",
+    "static/js/main.d55c4566.js"
   ]
 }
