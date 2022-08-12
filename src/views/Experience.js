@@ -3,6 +3,7 @@ import Logo from '../components/Logo';
 import Footer from '../components/Footer';
 import ExperienceItem from '../components/ExperienceItem';
 import '../styles/experience.css';
+import metronomeImages from '../assets/metronome';
 
 function Experience() {
   document.title = "Experience | Esther Lu"
@@ -61,6 +62,12 @@ function Experience() {
         "Metronome features included capabilities for polyrhythm generation and arbitrary time signature inputs, as well as Easter eggs such as Corgi and Tetris modes",
         "Incorporated a real-time operating system to provide high timing accuracy, with only ~100 microseconds of jitter",
         "Primarily responsible for user interface and integration of LCD screen and physical user inputs",
+      ],
+      images: [
+        metronomeImages.metronome,
+        metronomeImages.metronomeLabeled,
+        metronomeImages.metronomePcb,
+        metronomeImages.metronomeDiagram,
       ]
     },
     {

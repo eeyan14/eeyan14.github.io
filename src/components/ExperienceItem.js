@@ -43,13 +43,17 @@ function ExperienceItem(props) {
                 <li key={i}>{point}</li>
               )
             })}
-
-            {item.images?.map((img, i) => {
-              return (
-                <img key={i} src={img} />
-              )
-            })}
           </ul>
+        )}
+
+        {expanded && (
+          <div className="image-grid">
+          {item.images?.map((img, i) => {
+            return (
+              <img key={i} src={img} />
+            )
+          })}
+        </div>
         )}
       </div>
     </div>

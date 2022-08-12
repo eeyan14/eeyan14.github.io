@@ -64,6 +64,7 @@
 .exp-item .content {
   display: flex;
   flex-direction: column;
+  margin-bottom: 32px;
 }
 
 .exp-item .content .title {
@@ -87,4 +88,14 @@
   font-family: 'Raleway', sans-serif;
   font-size: 0.8rem;
   line-height: 1.25rem;
+}
+
+.exp-item .content .image-grid {
+  display: flex;
+  column-gap: 16px;
+  margin-bottom: 16px;
+}
+
+.exp-item .content .image-grid img {
+  height: calc(16px * 10);
 }
