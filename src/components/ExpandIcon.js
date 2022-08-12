@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/components/expandIcon.css';
+import React from "react";
+import "../styles/components/crossIcon.css";
 
 const ExpandIcon = (props) => {
   const {
@@ -8,13 +8,16 @@ const ExpandIcon = (props) => {
   } = props;
 
   return (
-    <div className="expand-container">
-      <div className={`expand-icon ${expanded ? "expanded" : ""}`}  style={!!lineLength ? { height: lineLength } : {}}>
+    <div className="cross-container">
+      <div
+        className={`cross-icon ${expanded ? "expanded" : ""}`}
+        style={!!lineLength ? { height: lineLength } : {}}
+      >
         <div className="bar vertical" />
         <div className="bar horizontal" />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default ExpandIcon;

@@ -96,6 +96,13 @@
   margin-bottom: 16px;
 }
 
-.exp-item .content .image-grid img {
-  height: calc(16px * 10);
+@media only screen and (max-width: 768px) {
+  .exp-item .content .details {
+    max-width: 65vw;
+  }
+
+  .exp-item .content .image-grid {
+    max-width: 65vw;
+    flex-wrap: wrap;
+  }
 }

@@ -1,4 +1,4 @@
-.expand-container {
+.cross-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,11 +6,11 @@
   width: 100%;
 }
 
-.expand-icon {
+.cross-icon {
   position: relative;
 }
 
-.expand-icon .bar {
+.cross-icon .bar {
   position: absolute;
   left: -1px;
   right: 0;
@@ -25,11 +25,19 @@
   transition: 200ms ease all;
 }
 
-.expand-icon .horizontal,
-.expand-icon.expanded .vertical {
+.cross-icon .horizontal,
+.cross-icon.expanded .vertical {
   rotate: calc(90deg); /* rotate so that bar is horizontal */
 }
 
-.expand-icon.expanded .horizontal {
+.cross-icon.expanded .horizontal {
   rotate: calc(-90deg); /* rotate it from 90 to -90 for extra movement */
+}
+
+.cross-icon .backslash {
+  rotate: calc(-45deg);
+}
+
+.cross-icon .forwardslash {
+  rotate: calc(45deg);
 }
